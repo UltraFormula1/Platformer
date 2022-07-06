@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Sprites/tiles/tileset.png" type="Texture" id=2]
@@ -6,8 +6,7 @@
 [ext_resource path="res://Sprites/layers_fullcolor/sky_fc.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/layers_fullcolor/far_mountains_fc.png" type="Texture" id=5]
 [ext_resource path="res://Sprites/layers_fullcolor/grassy_mountains_fc.png" type="Texture" id=6]
-[ext_resource path="res://Sprites/layers_fullcolor/clouds_mid_t_fc.png" type="Texture" id=7]
-[ext_resource path="res://Sprites/layers_fullcolor/clouds_front_t_fc.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/SpikeTrap.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/SwingingTrap.tscn" type="PackedScene" id=9]
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
@@ -218,7 +217,7 @@ script = ExtResource( 3 )
 
 [node name="Sky" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_scale = Vector2( 0, 1 )
-motion_mirroring = Vector2( 1536, 864 )
+motion_mirroring = Vector2( 1536, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/Sky"]
 position = Vector2( 229.25, 183.5 )
@@ -227,41 +226,28 @@ texture = ExtResource( 4 )
 
 [node name="far mountains" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_scale = Vector2( 0.2, 1 )
-motion_mirroring = Vector2( 1536, 864 )
+motion_mirroring = Vector2( 1536, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/far mountains"]
-position = Vector2( 288.75, 253.5 )
-scale = Vector2( 4, 4 )
+position = Vector2( 241, 244 )
+scale = Vector2( 4.12, 4.6 )
 texture = ExtResource( 5 )
 
 [node name="mountain" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_scale = Vector2( 0.6, 1 )
-motion_mirroring = Vector2( 768, 432 )
+motion_mirroring = Vector2( 768, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/mountain"]
-position = Vector2( 285, 260 )
-scale = Vector2( 2, 2 )
+position = Vector2( 608, 486 )
+scale = Vector2( 6, 6 )
 texture = ExtResource( 6 )
-
-[node name="mid clouds" type="ParallaxLayer" parent="ParallaxBackground"]
-motion_mirroring = Vector2( 768, 432 )
-
-[node name="Sprite" type="Sprite" parent="ParallaxBackground/mid clouds"]
-position = Vector2( 287.5, 263.5 )
-scale = Vector2( 2, 2 )
-texture = ExtResource( 7 )
-
-[node name="front clouds" type="ParallaxLayer" parent="ParallaxBackground"]
-motion_scale = Vector2( 2, 1 )
-motion_mirroring = Vector2( 768, 432 )
-
-[node name="Sprite" type="Sprite" parent="ParallaxBackground/front clouds"]
-position = Vector2( 285, 261 )
-scale = Vector2( 2, 2 )
-texture = ExtResource( 8 )
 
 [node name="SwingingTrap" parent="." instance=ExtResource( 9 )]
 position = Vector2( 310, 160 )
 
 [node name="SwingingTrap2" parent="." instance=ExtResource( 9 )]
 position = Vector2( 494, 240 )
+
+[node name="Area2D" parent="." instance=ExtResource( 7 )]
+position = Vector2( 118, 281 )
+rotation = -3.14159

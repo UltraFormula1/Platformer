@@ -57,7 +57,7 @@ func _physics_process(delta):
 	get_input()
 	if velocity == Vector2.ZERO:
 		player_state = state.IDLE
-	elif velocity.x != 0 and Input.is_action_just_pressed("jump") and is_on_floor():
+	if Input.is_action_just_pressed("jump") and is_on_floor():
 		player_state = state.STARTJUMP
 	elif velocity.x != 0:
 		player_state = state.RUNNING
@@ -67,6 +67,7 @@ func _physics_process(delta):
 			player_state = state.JUMP
 		if velocity.y > 0:
 			player_state = state.FALL
+	
 	handle_state(player_state)
 	update_animation(player_state)
 	#set gravity
