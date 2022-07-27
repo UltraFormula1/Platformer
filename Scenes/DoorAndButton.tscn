@@ -1,8 +1,10 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Sprites/misc/strange_door_closed_anim_strip_10.png" type="Texture" id=1]
 [ext_resource path="res://Sprites/misc/buttom.png" type="Texture" id=2]
 [ext_resource path="res://Sprites/misc/buttom_pressed.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/misc/strange_door_opening_anim_strip_14.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/DoorAndButton.gd" type="Script" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 8, 1 )
@@ -65,7 +67,7 @@ tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"points": PoolRealArray( 10, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0 )
 }
 tracks/2/type = "bezier"
@@ -99,10 +101,34 @@ tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"times": PoolRealArray( 0, 0.9 ),
+"times": PoolRealArray( 0, 1 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ false, true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Door:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 4 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Door:hframes")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 14 ]
 }
 
 [sub_resource type="Animation" id=6]
@@ -165,9 +191,13 @@ tracks/4/keys = {
 }
 
 [node name="DoorAndButton" type="Node2D"]
+script = ExtResource( 5 )
 
 [node name="Button" type="Sprite" parent="."]
 texture = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Button" type="StaticBody2D" parent="Button"]
 
@@ -185,6 +215,9 @@ shape = SubResource( 2 )
 position = Vector2( 36, 3 )
 texture = ExtResource( 1 )
 hframes = 14
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Door" type="StaticBody2D" parent="Door"]
 
@@ -198,3 +231,5 @@ anims/ButtonDown = SubResource( 5 )
 anims/DoorClosed = SubResource( 7 )
 anims/DoorOpen = SubResource( 8 )
 anims/RESET = SubResource( 6 )
+
+[connection signal="body_entered" from="Button/Area2D" to="." method="_on_Area2D_body_entered"]

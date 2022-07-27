@@ -2,8 +2,11 @@ extends Node2D
 
 
 func _ready():
-	pass
+	$AnimationPlayer.play("ButtonUp")
+	$AnimationPlayer.play("DoorClosed")
 
 
 func _on_Area2D_body_entered(body):
-	pass # Replace with function body.
+	if body.is_in_group("Player"):
+		$AnimationPlayer.play("ButtomDown")
+		$AnimationPlayer.play("DoorOpen")

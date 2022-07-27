@@ -16,4 +16,6 @@ func change_sound_db(val):
 	sound_db = linear2db(val)
 
 func _ready():
-	
+	music.stream = load(music_tracks["main"])
+	add_child(music)
+	music.play()
