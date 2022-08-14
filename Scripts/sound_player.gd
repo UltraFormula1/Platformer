@@ -3,7 +3,11 @@ extends Node
 onready var music = AudioStreamPlayer.new()
 
 var music_tracks = {
-	
+	"main" : "res://Sound Effects/scorched earth.wav"
+}
+
+var sound_effects = {
+	"dead" : "res://Sound Effects/Engineer_negativevocalization03.wav"
 }
 
 var music_db = 1
@@ -19,3 +23,13 @@ func _ready():
 	music.stream = load(music_tracks["main"])
 	add_child(music)
 	music.play()
+	print(music.stream)
+	print("playing song")
+
+func play_sound_effect(sfx):
+	var sound = AudioStreamPlayer.new()
+	sound.stream = load(sound_effects[sfx])
+	add.child(sound)
+	sound.play()
+	yield(sound,"finished")
+	sound.queue_free()
