@@ -32,7 +32,7 @@ tracks/0/keys = {
 }
 
 [node name="SwingingTrap" type="Node2D"]
-rotation = 1.69654
+rotation = -1.8326
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 0, 16 )

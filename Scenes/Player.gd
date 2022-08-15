@@ -44,6 +44,7 @@ func handle_state(player_state):
 	match(player_state):
 		state.STARTJUMP:
 			velocity.y = jump_speed
+			SoundPlayer.play_sound_effect("jump")
 	pass
 
 func get_input():
@@ -76,6 +77,10 @@ func _physics_process(delta):
 
 
 func _on_DeathZone_area_entered(area):
+	#SoundPlayer.play_sound_effect("dead")
 	if area.is_in_group("Deadly"):
 		if GameStats.check_reset() == false:
 			global_position = GameStats.get_spawn().global_position
+			SoundPlayer.play_sound_effect("dead")
+		
+			

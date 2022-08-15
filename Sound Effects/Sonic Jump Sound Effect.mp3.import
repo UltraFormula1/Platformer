@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Sonic Jump Sound Effect.mp3-231d830a3c3ffa146855fbe5e9ba9b3e.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Sonic Jump Sound Effect.mp3"
+dest_files=[ "res://.import/Sonic Jump Sound Effect.mp3-231d830a3c3ffa146855fbe5e9ba9b3e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

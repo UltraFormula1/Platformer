@@ -3,11 +3,15 @@ extends Node
 onready var music = AudioStreamPlayer.new()
 
 var music_tracks = {
-	"main" : "res://Sound Effects/scorched earth.wav"
+	"main" : "res://Sound Effects/Better Call Mario (Extended).mp3",
+	"menu" : "res://Sound Effects/Better Call Mario (Extended).mp3",
+	"finish" : 
 }
 
 var sound_effects = {
-	"dead" : "res://Sound Effects/Engineer_negativevocalization03.wav"
+	"dead" : "res://Sound Effects/Engineer_negativevocalization03.wav",
+	"jump" : "res://Sound Effects/Sonic Jump Sound Effect.mp3",
+	"checkpoint" : 
 }
 
 var music_db = 1
@@ -29,7 +33,7 @@ func _ready():
 func play_sound_effect(sfx):
 	var sound = AudioStreamPlayer.new()
 	sound.stream = load(sound_effects[sfx])
-	add.child(sound)
+	add_child(sound)
 	sound.play()
 	yield(sound,"finished")
 	sound.queue_free()

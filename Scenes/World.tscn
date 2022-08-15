@@ -742,11 +742,11 @@ anchor_bottom = 1.0
 theme = SubResource( 32 )
 
 [node name="Label" type="Label" parent="CanvasLayer/Control"]
-margin_left = 1106.0
-margin_top = 17.0
-margin_right = 1307.0
-margin_bottom = 35.0
-rect_scale = Vector2( 1.55697, 1.88238 )
+margin_left = 1585.0
+margin_top = 21.0
+margin_right = 1786.0
+margin_bottom = 39.0
+rect_scale = Vector2( 4.34983, 4.84711 )
 text = "00:00:00"
 
 [editable path="DoorAndButton"]

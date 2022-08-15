@@ -4,6 +4,7 @@ onready var game_start_time = OS.get_ticks_msec()
 var current_spawn = null
 
 func reset():
+	SoundPlayer.play_sound_effect("dead")
 	current_spawn = null
 	get_tree().reload_current_scene()
 	game_start_time = OS.get_ticks_msec()
