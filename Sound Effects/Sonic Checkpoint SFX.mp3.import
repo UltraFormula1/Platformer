@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Sonic Checkpoint SFX.mp3-aac9b22f568a5d85b1c76ba760960124.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Sonic Checkpoint SFX.mp3"
+dest_files=[ "res://.import/Sonic Checkpoint SFX.mp3-aac9b22f568a5d85b1c76ba760960124.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0.733

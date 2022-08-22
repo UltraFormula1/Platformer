@@ -1,7 +1,7 @@
 extends Node2D
 
 func _ready():
-	pass
+	SoundPlayer.change_music("main")
 
 func _process(delta):
 	pass

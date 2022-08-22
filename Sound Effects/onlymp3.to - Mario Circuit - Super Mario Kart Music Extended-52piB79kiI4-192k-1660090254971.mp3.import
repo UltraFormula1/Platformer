@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/onlymp3.to - Mario Circuit - Super Mario Kart Music Extended-52piB79kiI4-192k-1660090254971.mp3-a5f3665deea1f7754d0058fa3129880e.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/onlymp3.to - Mario Circuit - Super Mario Kart Music Extended-52piB79kiI4-192k-1660090254971.mp3"
+dest_files=[ "res://.import/onlymp3.to - Mario Circuit - Super Mario Kart Music Extended-52piB79kiI4-192k-1660090254971.mp3-a5f3665deea1f7754d0058fa3129880e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

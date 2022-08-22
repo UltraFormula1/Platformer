@@ -3,15 +3,15 @@ extends Node
 onready var music = AudioStreamPlayer.new()
 
 var music_tracks = {
-	"main" : "res://Sound Effects/Better Call Mario (Extended).mp3",
+	"main" : "res://Sound Effects/onlymp3.to - Mario Circuit - Super Mario Kart Music Extended-52piB79kiI4-192k-1660090254971.mp3",
 	"menu" : "res://Sound Effects/Better Call Mario (Extended).mp3",
-	"finish" : 
+	"finish" : "res://Sound Effects/Bad _16-bit Version_.mp3",
 }
 
 var sound_effects = {
 	"dead" : "res://Sound Effects/Engineer_negativevocalization03.wav",
 	"jump" : "res://Sound Effects/Sonic Jump Sound Effect.mp3",
-	"checkpoint" : 
+	"checkpoint" : "res://Sound Effects/Sonic Checkpoint SFX.mp3"
 }
 
 var music_db = 1
@@ -24,11 +24,18 @@ func change_sound_db(val):
 	sound_db = linear2db(val)
 
 func _ready():
-	music.stream = load(music_tracks["main"])
+	#music.stream = load(music_tracks["main"])
 	add_child(music)
 	music.play()
 	print(music.stream)
 	print("playing song")
+
+func change_music(track):
+	if track in music_tracks:
+		music.stream = load(music_tracks[track])
+		music.play()
+	
+
 
 func play_sound_effect(sfx):
 	var sound = AudioStreamPlayer.new()

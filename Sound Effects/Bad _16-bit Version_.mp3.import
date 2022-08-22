@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Bad _16-bit Version_.mp3-6eed96539c580b538f2932ca25f20e11.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Bad _16-bit Version_.mp3"
+dest_files=[ "res://.import/Bad _16-bit Version_.mp3-6eed96539c580b538f2932ca25f20e11.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
