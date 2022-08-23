@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Sprites/custom/walter black.jpg" type="Texture" id=1]
+[ext_resource path="res://Scenes/End.gd" type="Script" id=2]
+
+[node name="Control" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 957.25, 540.75 )
+scale = Vector2( 1.03483, 1.04402 )
+texture = ExtResource( 1 )
