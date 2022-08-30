@@ -14,4 +14,8 @@ func _on_Back_pressed():
 
 
 func _on_HSlider_value_changed(value):
-	SoundPlayer.change_music.volume(value)
+	SoundPlayer.change_music_db(value)
+
+
+func _on_SFX_value_changed(value):
+	SoundPlayer.change_sound_db(value)

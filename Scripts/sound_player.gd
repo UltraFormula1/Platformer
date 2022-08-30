@@ -37,7 +37,6 @@ func change_music(track):
 		music_player.play()
 	
 
-
 func play_sound_effect(sfx):
 	var sound = AudioStreamPlayer.new()
 	sound.stream = load(sound_effects[sfx])
