@@ -322,7 +322,10 @@ anims/MoveToOptions = SubResource( 16 )
 anims/RESET = SubResource( 17 )
 anims/Start = SubResource( 18 )
 
+[connection signal="pressed" from="MarginContainer/CenterContainer/HBoxContainer/CenterContainer/VBoxContainer/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="MarginContainer/CenterContainer/HBoxContainer/CenterContainer/VBoxContainer/Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="MarginContainer/CenterContainer/HBoxContainer/CenterContainer/VBoxContainer/Exit" to="." method="_on_Exit_pressed"]
 [connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]
 [connection signal="value_changed" from="MarginContainer2/CenterContainer/HBoxContainer/SFX" to="." method="_on_SFX_value_changed"]
+[connection signal="toggled" from="CheckBox" to="." method="_on_CheckBox_toggled"]
 [connection signal="pressed" from="Back" to="." method="_on_Back_pressed"]
