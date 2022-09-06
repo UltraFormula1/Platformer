@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Crash Bandicoot Sounds - Woah!.mp3-bf29f693f5ea3dfdd570d84443dc69c4.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Crash Bandicoot Sounds - Woah!.mp3"
+dest_files=[ "res://.import/Crash Bandicoot Sounds - Woah!.mp3-bf29f693f5ea3dfdd570d84443dc69c4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

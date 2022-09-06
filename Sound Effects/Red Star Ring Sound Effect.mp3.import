@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Red Star Ring Sound Effect.mp3-04fcc252ad312f4e7ef05a74e6c9c9c6.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Red Star Ring Sound Effect.mp3"
+dest_files=[ "res://.import/Red Star Ring Sound Effect.mp3-04fcc252ad312f4e7ef05a74e6c9c9c6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,9 +1,11 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Sprites/custom/saul.jpg" type="Texture" id=1]
 [ext_resource path="res://Scenes/Title.gd" type="Script" id=2]
 [ext_resource path="res://Other Assets/JMH Cthulhumbus Arcade.otf" type="DynamicFontData" id=3]
 [ext_resource path="res://Sprites/custom/Finger.jpg" type="Texture" id=4]
+[ext_resource path="res://Sprites/custom/wood.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/custom/kings.png" type="Texture" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 64
@@ -150,6 +152,16 @@ tracks/0/keys = {
 margin_right = 40.0
 margin_bottom = 40.0
 script = ExtResource( 2 )
+
+[node name="Kings" type="Sprite" parent="."]
+position = Vector2( 251, 852 )
+scale = Vector2( 1.02582, 0.967605 )
+texture = ExtResource( 6 )
+
+[node name="Wood" type="Sprite" parent="."]
+position = Vector2( 1655, 520 )
+scale = Vector2( 0.992168, 0.697629 )
+texture = ExtResource( 5 )
 
 [node name="Label2" type="Label" parent="."]
 margin_left = -2.0
