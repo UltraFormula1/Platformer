@@ -9,10 +9,10 @@ var music_tracks = {
 }
 
 var sound_effects = {
-	"dead" : "res://Sound Effects/Crash Bandicoot Sounds - Woah!.mp3",
+	"dead" : "res://Sound Effects/Crash Bandicoot Sounds - Woah!.wav",
 	"jump" : "res://Sound Effects/Sonic Jump Sound Effect.mp3",
 	"checkpoint" : "res://Sound Effects/Sonic Checkpoint SFX.mp3",
-	"menu" : "res://Sound Effects/Red Star Ring Sound Effect.mp3",
+	"menu" : "res://Sound Effects/Gran Turismo Sound.wav",
 }
 
 var music_db = 1

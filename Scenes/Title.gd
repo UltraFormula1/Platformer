@@ -25,6 +25,7 @@ func _on_SFX_value_changed(value):
 
 func _on_CheckBox_toggled(button_pressed):
 	OS.window_fullscreen = !OS.window_fullscreen
+	SoundPlayer.play_sound_effect("menu")
 
 
 func _on_Start_pressed():
