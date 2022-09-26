@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/onlymp3.to - Green Grove Zone (Act 1) - Sonic 3D Blast (Saturn) [OST]-m9YTsT2wfYU-192k-1660310049823.mp3-94d94b279189ac37a9648d43c3fbeaae.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/onlymp3.to - Green Grove Zone (Act 1) - Sonic 3D Blast (Saturn) [OST]-m9YTsT2wfYU-192k-1660310049823.mp3"
+dest_files=[ "res://.import/onlymp3.to - Green Grove Zone (Act 1) - Sonic 3D Blast (Saturn) [OST]-m9YTsT2wfYU-192k-1660310049823.mp3-94d94b279189ac37a9648d43c3fbeaae.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

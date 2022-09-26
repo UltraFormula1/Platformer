@@ -3,7 +3,8 @@ extends Node
 onready var music_player = AudioStreamPlayer.new()
 
 var music_tracks = {
-	"main" : "res://Sound Effects/onlymp3.to - Mario Circuit - Super Mario Kart Music Extended-52piB79kiI4-192k-1660090254971.mp3",
+	"main" : "res://Sound Effects/onlymp3.to - Green Grove Zone (Act 1) - Sonic 3D Blast (Saturn) [OST]-m9YTsT2wfYU-192k-1660310049823.mp3",
+	"main2" : "res://Sound Effects/onlymp3.to - Gene Gadget Zone (Act 1) - Sonic 3D Blast (Saturn) [OST]-yEIwqlXfUVs-192k-1660310200832.mp3",
 	"menu" : "res://Sound Effects/Better Call Mario (Extended).mp3",
 	"finish" : "res://Sound Effects/Bad _16-bit Version_.mp3",
 }
