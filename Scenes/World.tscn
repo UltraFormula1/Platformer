@@ -1140,7 +1140,7 @@ modulate = Color( 0.756863, 0.94902, 1, 1 )
 script = ExtResource( 12 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 358, 0 )
+position = Vector2( 21, 62 )
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2( 232, 56 )
