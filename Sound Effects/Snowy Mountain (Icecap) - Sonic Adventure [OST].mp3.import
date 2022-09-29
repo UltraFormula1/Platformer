@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Snowy Mountain (Icecap) - Sonic Adventure [OST].mp3-1ae3cae857520734f34f19a880da04e9.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Snowy Mountain (Icecap) - Sonic Adventure [OST].mp3"
+dest_files=[ "res://.import/Snowy Mountain (Icecap) - Sonic Adventure [OST].mp3-1ae3cae857520734f34f19a880da04e9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

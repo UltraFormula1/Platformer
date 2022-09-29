@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Better Call Saul Main Theme - Super Mario 64 Soundfont.mp3-04699b9bbac9e42a8af7766984796496.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Better Call Saul Main Theme - Super Mario 64 Soundfont.mp3"
+dest_files=[ "res://.import/Better Call Saul Main Theme - Super Mario 64 Soundfont.mp3-04699b9bbac9e42a8af7766984796496.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

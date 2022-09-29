@@ -2,6 +2,7 @@ extends Node2D
 
 func _ready():
 	SoundPlayer.change_music("main2")
+	GameStats.current_spawn = null
 
 func _process(delta):
 	pass

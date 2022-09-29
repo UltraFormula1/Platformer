@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Eggman.mp3-e1d2776af9bc0b1db1acd3048cb01df6.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Eggman.mp3"
+dest_files=[ "res://.import/Eggman.mp3-e1d2776af9bc0b1db1acd3048cb01df6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

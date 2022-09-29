@@ -1140,7 +1140,7 @@ modulate = Color( 0.756863, 0.94902, 1, 1 )
 script = ExtResource( 12 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 21, 62 )
+position = Vector2( 32, 63 )
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2( 232, 56 )
@@ -1204,7 +1204,7 @@ position = Vector2( 334, 454 )
 position = Vector2( 573, 455 )
 
 [node name="SwingingTrap8" parent="." instance=ExtResource( 9 )]
-position = Vector2( 945, 407 )
+position = Vector2( 940, 407 )
 
 [node name="Area2D" parent="." instance=ExtResource( 7 )]
 position = Vector2( 319, 336 )
