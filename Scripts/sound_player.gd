@@ -3,7 +3,7 @@ extends Node
 onready var music_player = AudioStreamPlayer.new()
 
 var music_tracks = {
-	"main" : "res://Sound Effects/onlymp3.to - Green Grove Zone (Act 1) - Sonic 3D Blast (Saturn) [OST]-m9YTsT2wfYU-192k-1660310049823.mp3",
+	"main" : "res://Sound Effects/Windmill Isle Day - Sonic Unleashed for Nintendo 64 (Revision).mp3",
 	"main2" : "res://Sound Effects/Snowy Mountain (Icecap) - Sonic Adventure [OST].mp3",
 	"menu" : "res://Sound Effects/Better Call Saul Main Theme - Super Mario 64 Soundfont.mp3",
 	"finish" : "res://Sound Effects/Bad _16-bit Version_.mp3",

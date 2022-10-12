@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Windmill Isle Day - Sonic Unleashed for Nintendo 64 (Revision).mp3-ed9baf2d8f78e680dd3c428c777dce54.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/Windmill Isle Day - Sonic Unleashed for Nintendo 64 (Revision).mp3"
+dest_files=[ "res://.import/Windmill Isle Day - Sonic Unleashed for Nintendo 64 (Revision).mp3-ed9baf2d8f78e680dd3c428c777dce54.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
