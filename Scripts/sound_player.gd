@@ -14,6 +14,7 @@ var sound_effects = {
 	"jump" : "res://Sound Effects/Sonic Jump Sound Effect.mp3",
 	"checkpoint" : "res://Sound Effects/Sonic Checkpoint SFX.mp3",
 	"menu" : "res://Sound Effects/Gran Turismo Sound.wav",
+	"end" : "res://Sound Effects/Red Star Ring Sound Effect.mp3",
 }
 
 var music_db = 1
