@@ -3,7 +3,9 @@ extends Control
 
 func _ready():
 	SoundPlayer.change_music("menu")
-
+	$MarginContainer2/CenterContainer/HBoxContainer/SFX.value = db2linear(SoundPlayer.sound_db)
+	$HSlider.value = db2linear(SoundPlayer.music_db)
+	#$CheckBox.value = checkbox_toggled(button_pressed)
 
 func _on_Options_pressed():
 	$AnimationPlayer.play("MoveToOptions")
