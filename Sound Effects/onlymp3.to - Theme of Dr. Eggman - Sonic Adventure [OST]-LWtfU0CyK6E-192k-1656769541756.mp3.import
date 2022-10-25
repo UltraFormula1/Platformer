@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/onlymp3.to - Theme of Dr. Eggman - Sonic Adventure [OST]-LWtfU0CyK6E-192k-1656769541756.mp3-544083fc0e255c6472e080c66f157e68.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/onlymp3.to - Theme of Dr. Eggman - Sonic Adventure [OST]-LWtfU0CyK6E-192k-1656769541756.mp3"
+dest_files=[ "res://.import/onlymp3.to - Theme of Dr. Eggman - Sonic Adventure [OST]-LWtfU0CyK6E-192k-1656769541756.mp3-544083fc0e255c6472e080c66f157e68.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

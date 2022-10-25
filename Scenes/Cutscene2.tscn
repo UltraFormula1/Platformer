@@ -1,0 +1,57 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scenes/Cutscene2.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/custom/gus fring.png" type="Texture" id=2]
+[ext_resource path="res://Other Assets/JMH Cthulhumbus Arcade.otf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[sub_resource type="Theme" id=4]
+default_font = SubResource( 3 )
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[sub_resource type="DynamicFont" id=5]
+outline_size = 1
+outline_color = Color( 0.054902, 0.054902, 0.054902, 1 )
+font_data = ExtResource( 3 )
+
+[node name="Control" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 952.5, 545 )
+scale = Vector2( 8.75909, 3.35758 )
+texture = ExtResource( 2 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 1302.0
+margin_top = 62.0001
+margin_right = 1459.0
+margin_bottom = 86.0001
+rect_scale = Vector2( 3.80637, 2.99769 )
+theme = SubResource( 4 )
+text = "TO LEVEL"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 0.999999
+margin_top = 610.0
+margin_right = 383.0
+margin_bottom = 691.0
+rect_scale = Vector2( 5.19854, 5.62325 )
+theme = SubResource( 2 )
+custom_constants/shadow_offset_x = 0
+custom_fonts/font = SubResource( 5 )
+text = "Jesse WTF are you doing here? Because you
+have disobeyed me, I will banish you to the
+snow realm. the only way for you to escape
+is to find Saul's phone, if it's even there!"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

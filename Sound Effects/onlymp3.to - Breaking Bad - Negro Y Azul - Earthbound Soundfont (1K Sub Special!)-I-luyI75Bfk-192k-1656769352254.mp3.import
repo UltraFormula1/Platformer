@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/onlymp3.to - Breaking Bad - Negro Y Azul - Earthbound Soundfont (1K Sub Special!)-I-luyI75Bfk-192k-1656769352254.mp3-bff75bdd5ff9c76f7b8c984b3cbeead5.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/onlymp3.to - Breaking Bad - Negro Y Azul - Earthbound Soundfont (1K Sub Special!)-I-luyI75Bfk-192k-1656769352254.mp3"
+dest_files=[ "res://.import/onlymp3.to - Breaking Bad - Negro Y Azul - Earthbound Soundfont (1K Sub Special!)-I-luyI75Bfk-192k-1656769352254.mp3-bff75bdd5ff9c76f7b8c984b3cbeead5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

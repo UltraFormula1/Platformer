@@ -31,7 +31,7 @@ func _on_CheckBox_toggled(button_pressed):
 
 
 func _on_Start_pressed():
-	get_tree().change_scene("res://Scenes/World.tscn")
+	get_tree().change_scene("res://Scenes/Cutscene1.tscn")
 	SoundPlayer.play_sound_effect("menu")
 
 

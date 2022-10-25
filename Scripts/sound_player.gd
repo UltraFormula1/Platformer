@@ -7,6 +7,8 @@ var music_tracks = {
 	"main2" : "res://Sound Effects/Snowy Mountain (Icecap) - Sonic Adventure [OST].mp3",
 	"menu" : "res://Sound Effects/Better Call Saul Main Theme - Super Mario 64 Soundfont.mp3",
 	"finish" : "res://Sound Effects/Bad _16-bit Version_.mp3",
+	"cutscene 1" : "res://Sound Effects/onlymp3.to - Breaking Bad - Negro Y Azul - Earthbound Soundfont (1K Sub Special!)-I-luyI75Bfk-192k-1656769352254.mp3" ,
+	"cutscene 2" : "res://Sound Effects/onlymp3.to - Theme of Dr. Eggman - Sonic Adventure [OST]-LWtfU0CyK6E-192k-1656769541756.mp3" ,
 }
 
 var sound_effects = {

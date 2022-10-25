@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/saulgoodman.png-4005bbf30b1a4d7df40cccc76973aac4.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://Sprites/custom/SaulGoodman.png"
+source_file="res://Sprites/custom/saulgoodman.png"
+dest_files=[ "res://.import/saulgoodman.png-4005bbf30b1a4d7df40cccc76973aac4.stex" ]
+
 [params]
 
 compress/mode=0

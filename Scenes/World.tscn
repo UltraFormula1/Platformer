@@ -1323,7 +1323,7 @@ tracks/1/keys = {
 }
 
 [node name="World" type="Node2D"]
-modulate = Color( 0.756863, 0.94902, 1, 1 )
+modulate = Color( 1, 0.984314, 0.756863, 1 )
 script = ExtResource( 12 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]

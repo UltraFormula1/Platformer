@@ -1574,7 +1574,7 @@ tracks/1/keys = {
 extents = Vector2( 294.5, 66 )
 
 [node name="World2" type="Node2D"]
-modulate = Color( 0, 0.952941, 1, 1 )
+modulate = Color( 0.270588, 1, 1, 1 )
 script = ExtResource( 12 )
 
 [node name="TileMap" type="TileMap" parent="."]
