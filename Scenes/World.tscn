@@ -746,7 +746,7 @@ tracks/0/keys = {
 
 [sub_resource type="Curve2D" id=48]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -4, 30, 0, 0, 0, 0, 621, 26, 0, 0, 0, 0, 620, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )
+"points": PoolVector2Array( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -4, 30, 0, 0, 0, 0, 621, 26, 0, 0, 0, 0, 621, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )
 }
 
 [sub_resource type="Animation" id=21]
@@ -1598,7 +1598,7 @@ curve = SubResource( 60 )
 [node name="Area2D" parent="SpinningBlade/Path2D/PathFollow2D/Sprite" index="0" groups=["Deadly"]]
 
 [node name="SpinningBlade2" parent="." instance=ExtResource( 10 )]
-position = Vector2( 140, 528 )
+position = Vector2( 140, 530 )
 follow_speed = 100
 
 [node name="AnimationPlayer" parent="SpinningBlade2" index="0"]
