@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/saul-goodman-Hey_Jesse__so_um__I_.wav-35854a6b20b948c8a3475d7fc00b151b.sample"
+
+[deps]
+
+source_file="res://Sound Effects/saul-goodman-Hey_Jesse__so_um__I_.wav"
+dest_files=[ "res://.import/saul-goodman-Hey_Jesse__so_um__I_.wav-35854a6b20b948c8a3475d7fc00b151b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -2141,7 +2141,7 @@ shape = SubResource( 89 )
 position = Vector2( 898, 292 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 24, 63 )
+position = Vector2( 18, 62 )
 
 [node name="Sprite" parent="Player" index="0"]
 modulate = Color( 0.12549, 0, 1, 1 )

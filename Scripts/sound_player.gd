@@ -17,6 +17,9 @@ var sound_effects = {
 	"checkpoint" : "res://Sound Effects/Sonic Checkpoint SFX.mp3",
 	"menu" : "res://Sound Effects/Gran Turismo Sound.wav",
 	"end" : "res://Sound Effects/Red Star Ring Sound Effect.mp3",
+	"dialogue 1" : "res://Sound Effects/saul-goodman-Hey_Jesse__so_um__I_.wav" ,
+	"dialogue 2" : "res://Sound Effects/gustavo-fring-Jesse_what_the_fuck_.wav" ,
+	"dialogue 3" : "res://Sound Effects/YEAH SCIENCE.mp3" ,
 }
 
 var music_db = 1

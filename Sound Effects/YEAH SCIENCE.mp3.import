@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/YEAH SCIENCE.mp3-e4e29c01f1548cf957db1dd4afac5481.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects/YEAH SCIENCE.mp3"
+dest_files=[ "res://.import/YEAH SCIENCE.mp3-e4e29c01f1548cf957db1dd4afac5481.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
